@@ -1,0 +1,103 @@
+    h1 { /*Cabeçalho */
+		background-color:#000000;
+		text-align:center;
+		font-family: Brush Script MT;
+		color: #FFFFFF;
+		font-size:80;
+	    margin-bottom:10px;
+	 }
+	 h2{
+	  font-family:Brush Script MT;
+	  text-align:center;
+	  color: #197278;
+	  font-size:40;
+	  line-height:10px;
+	 }
+	  h3{
+	  font-family:calibri;
+	  text-align:center;
+	  color: #000000;
+	  font-style:italic;
+	  font-size: 20;
+	  line-height:2px;
+	 }
+	 h4{
+	 font-family: calibri;
+	 color: #000000;
+	 font-size:15;
+	 text-align:center;
+	 }
+	 h5{
+	 font-family: Brush Script MT;
+	 color: black;
+	 font-size:15;
+	 text-align:center;
+	 line-height:2px;
+	 }
+	 h6{
+	  font-family:Brush Script MT;
+	  text-align:left;
+	  color: #197278;
+	  font-size:40;
+	  line-height:2px;
+	  margin:20px;
+	 }
+	 
+	 
+	 .grid {
+		display: grid;
+		grid-template-columns:280px 650px auto;
+		grid-gap: 30px;
+        padding: 10px;
+		grid-row: auto auto auto;
+		background-color: #DCDCDC;
+	 }
+	 .grid2 {
+		display: grid;
+		grid-template-columns:280px auto;
+		grid-gap: 50px;
+        padding: 50px;
+		grid-row: auto auto;
+		background-color: #DCDCDC;
+	 }
+	 
+	 .dados {
+	    grid-column: span 3;
+	 }
+	 
+	.menu {
+		background-color: #DCDCDC;
+		text-align: center;
+	}
+	.apresentacao {
+		background-color: 	#1C1C1C;
+		font-family: calibri;
+		text-align: center;
+		color:#ffffff;
+		font-size: 20px;
+	  }
+	.conteudo {
+		background-color: #DCDCDC;
+		font-family: calibri;
+		text-align: justify;
+		color:#000000;
+		font-size: 20px;
+		
+	 }
+	 
+	 
+	 .video {
+		background-color: #DCDCDC;
+		text-align: center;
+		grid-row: span 2;
+	 }
+	 
+	 
+	 
+	 .form {
+		background-color: #DCDCDC;
+		font-family: calibri;
+		text-align: justify;
+		color:#000000;
+		margin-top:2px;
+	}

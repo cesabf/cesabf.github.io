@@ -1,0 +1,74 @@
+    h1 { /*Cabeçalho */
+		background-color:#000000;
+		text-align:center;
+		font-family: Brush Script MT;
+		color: #FFFFFF;
+		font-size:80;
+	 }
+	 
+	 .link{
+		text-align:left;
+		target:_blank;
+		width:50;
+		height:50;
+		margin-left:20;
+	 }
+	 
+	 .link2{
+		text-align:right;
+		target:_blank;
+		width:50;
+		height:50;
+		margin-right:20;
+	 }
+	 
+	 .x {
+     text-align:center;
+	 font-family: calibri;
+	 color: #000000;
+	 font-size:15;
+	 font-style:italic;
+	 }
+	 
+	 h2{
+		 text-align: center;
+		 font-family: Brush Script MT;
+		 color: #000000;
+		 font-size: 15;
+		 line-height:2px
+	 
+	 }
+	 h3{
+	  font-family:Brush Script MT;
+	  text-align:center;
+	  color: #197278;
+	  font-size:40;
+	  line-height:2px;
+	 }
+	 
+	 .note {
+	 text-align:center;
+	 font-family: Brush Script MT;
+	 color: #000000;
+	 font-size:15;
+	 line-height:2px;
+	 }
+	 
+     .p1 {
+     background-color:#000000;
+	 text-align:center;
+	 font-family: Brush Script MT;
+	 color: #FFFFFF;
+	 font-size:80;
+	 }
+	.p2 {
+	 display: grid;
+	 grid-template-columns: 300px 850px;
+	 grid-gap: 80px;
+     padding: 10px;
+	 grid-row: auto auto;
+	 background-color: #DCDCDC;
+     font-family: calibri;
+	 text-align: justify;
+     font-size: 20px;
+	}
